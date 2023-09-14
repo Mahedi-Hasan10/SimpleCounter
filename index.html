@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div class="flex items-center justify-center h-screen">
+      <div class="bg-[#451952] p-6 py-10 flex flex-col items-center justify-center rounded">
+        <p class="mt-3 bg-[gray] px-10 py-3 w-[100%] text-white font-bold text-[2rem]" id="demo">0</p>
+        <br>
+        <div class="text-white text-[1rem]">
+          <button class="px-9 py-3 bg-[#F39F5A] rounded " onclick="increase()">Increse</button>
+          <button class="px-9 py-3 bg-[#662549] rounded" onclick="Decrease()">Decrease</button>
+          <button class="px-9 py-3 bg-[#AE445A] rounded" onclick="Reset()">Reset</button>
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
